@@ -270,7 +270,7 @@ def main():
                 break
 
     else:
-        print("Kindly check your entries and try again.")
+        print("Kindly check your credentials and retry.")
 
 if __name__ == "__main__":
     main()
