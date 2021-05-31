@@ -23,7 +23,6 @@ def delete_user(user):
     """
     user.delete_user()
 
-
 def create_credential(account, acnt_username, acnt_password):
     """
     Parameters
@@ -62,7 +61,6 @@ def check_existing_credentials(acnt_username):
     user
     """
     return Credential.find_by_acnt_username(acnt_username)
-
 
 def display_credentials():
     """
