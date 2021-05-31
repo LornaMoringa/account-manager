@@ -9,10 +9,8 @@ class TestUser(unittest.TestCase):
     def setUp(self):
         self.created_user = User("Lorna", "2021")
 
-
     def tearDown(self):
         User.user_list = []
-
 
     def test_init(self):
         self.assertEqual(self.created_user.name, "Lorna")
